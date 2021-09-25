@@ -1,7 +1,7 @@
 # Node.js – JWT Prueba con autenticación y autorización con JSONWebToken & Sequelize
 
-## User Registration, User Login and Authorization process.
-The diagram shows flow of how we implement User Registration, User Login and Authorization process.
+## Proceso de registro, inicio de sesión de usuario y autorización.
+El diagrama muestra el flujo de cómo implementamos el proceso de registro de usuario, inicio de sesión de usuario y autorización.
 
 ## Project setup
 ```
