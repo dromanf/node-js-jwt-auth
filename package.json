@@ -13,7 +13,7 @@
     "express",
     "mysql"
   ],
-  "author": "bezkoder",
+  "author": "Deybys Román",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

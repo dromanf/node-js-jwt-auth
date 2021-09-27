@@ -5,11 +5,11 @@ const Role = db.role;
 
 const Op = db.Sequelize.Op;
 
-var jwt = require("jsonwebtoken");
-var bcrypt = require("bcryptjs");
+let jwt = require("jsonwebtoken");
+let bcrypt = require("bcryptjs");
 
 exports.signup = (req, res) => {
-  // Save User to Database
+  // Guardar usuario en DB
   User.create({
     username: req.body.username,
     email: req.body.email,
@@ -29,7 +29,6 @@ exports.signup = (req, res) => {
           });
         });
       } else {
-        // user role = 1
         user.setRoles([1]).then(() => {
           res.send({ message: "¡Usuario registrado exitosamente!" });
         });
